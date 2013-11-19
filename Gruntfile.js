@@ -45,7 +45,7 @@ module.exports = function(grunt) {
       component: {
         options: {
           dest: 'index.js',
-          header: '',
+          header: 'var marked = require("marked");',
           footer: 'module.exports = Editor'
         }
       },

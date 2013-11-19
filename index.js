@@ -1,4 +1,4 @@
-
+var marked = require("marked");
 // CodeMirror version 3.15
 //
 // CodeMirror is the only global var we claim
@@ -7107,10 +7107,8 @@ Editor.toolbar = toolbar;
  * Default markdown render.
  */
 Editor.markdown = function(text) {
-  if (window.marked) {
-    // use marked as markdown parser
-    return marked(text);
-  }
+  // use marked as markdown parser
+  return marked(text);
 };
 
 /**

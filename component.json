@@ -4,7 +4,9 @@
   "description": "A markdown editor you really want.",
   "version": "0.1.0",
   "keywords": [],
-  "dependencies": {},
+  "dependencies": {
+    "component/marked": "*"
+  },
   "development": {},
   "license": "MIT",
   "main": "index.js",
